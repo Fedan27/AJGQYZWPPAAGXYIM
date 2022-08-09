@@ -1,5 +1,4 @@
 @echo off
-bitsadmin.exe /transfer "Saved gdrive" https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe C:\Users\administrator\downloads\GoogleDriveSetup.exe
 del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk" > out.txt 2>&1
 net config server /srvcomment:"Windows Server 2022 By Fedan" > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Search " /V SearchboxTaskbarMode /T REG_DWORD /D 0 /F 1 > NUL  2>&1
